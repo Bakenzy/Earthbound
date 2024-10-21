@@ -31,7 +31,7 @@ Steps to Run Locally
 Clone the Repository
 bash
 Copy code
-git clone https://github.com/bakenzy/earthbound-marketing-page.git
+git clone https://github.com/bakenzy/Earthbound.git
 1. 2. Open the HTML File
    * Locate the index.html file in the project folder.
    * Open the file in your web browser by double-clicking it or right-clicking and selecting "Open with" -> "Browser."
