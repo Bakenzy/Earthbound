@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="english">
+  <head>
+    <title>exported project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background: var(--dl-color-theme-neutral-light);
+
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=News+Cycle:wght@400;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=News+Cycle:wght@400;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=News+Cycle:wght@400;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./index.css" rel="stylesheet" />
+
+      <div class="mac-book-pro142-container1">
+        <div class="mac-book-pro142-mac-book-pro142">
+          <div class="mac-book-pro142-group17">
+            <div class="mac-book-pro142-frame4">
+              <div class="mac-book-pro142-group3">
+                <span class="mac-book-pro142-text10"><span>Home</span></span>
+                <span class="mac-book-pro142-text12">
+                  <span>About Us</span>
+                </span>
+                <span class="mac-book-pro142-text14"><span>Shop</span></span>
+                <div class="mac-book-pro142-link10">
+                  <div class="mac-book-pro142-picture">
+                    <div class="mac-book-pro142-logowebp"></div>
+                  </div>
+                  <div class="mac-book-pro142-pictureearthbondwebp"></div>
+                </div>
+                <div class="mac-book-pro142-link11">
+                  <span class="mac-book-pro142-text16">
+                    <span>Apply Now</span>
+                  </span>
+                </div>
+                <div class="mac-book-pro142-link12">
+                  <span class="mac-book-pro142-text18">
+                    <span>Apply Now</span>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="mac-book-pro142-link13">
+              <span class="mac-book-pro142-text20">
+                <span>Get Carbon Credits</span>
+              </span>
+            </div>
+            <div class="mac-book-pro142-group5">
+              <span class="mac-book-pro142-text22">
+                <span>
+                  We're the one-stop-shop for businesses that need reliable
+                  solar energy that saves them money on fuel for their
+                  generators
+                </span>
+              </span>
+              <div class="mac-book-pro142-group6">
+                <span class="mac-book-pro142-text24">
+                  <span class="mac-book-pro142-text25">Save</span>
+                  <span class="mac-book-pro142-text26">Millions</span>
+                  <span>by&nbsp;switching to Solar</span>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="mac-book-pro142-group16">
+            <img
+              src="public/external/sunsetwithsea4526-dhgp-1000h.png"
+              alt="sunsetwithsea4526"
+              class="mac-book-pro142-sunsetwithsea"
+            />
+            <span class="mac-book-pro142-text28">
+              <span>
+                At Earthbond, we're transforming the way energy is generated and
+                used across Africa. By harnessing the power of the sun, we've
+                developed a network of solar installations that not only provide
+                clean energy but also help reduce carbon emissions
+                significantly.
+              </span>
+              <br />
+              <span></span>
+              <br />
+              <span>
+                Together, our solar installations have generated a total of over
+                1,200 MWh of clean energy, enough to power thousands of homes
+                and businesses across the region.Beyond reducing carbon
+                emissions,
+              </span>
+              <br />
+              <span></span>
+              <br />
+              <span>
+                Earthbond’s projects have empowered communities by providing
+                access to reliable energy, creating jobs, and supporting local
+                economies in underserved regions
+              </span>
+            </span>
+            <span class="mac-book-pro142-text38">
+              <span class="mac-book-pro142-text39">At</span>
+              <span class="mac-book-pro142-text40">Earthbond</span>
+              <br />
+              <span class="mac-book-pro142-text42"></span>
+              <span>
+                we generate clean energy and empower communities for a
+                sustainable future.
+              </span>
+            </span>
+            <div class="mac-book-pro142-link14">
+              <span class="mac-book-pro142-text44">
+                <span>learn More</span>
+              </span>
+            </div>
+          </div>
+          <div class="mac-book-pro142-group22">
+            <div class="mac-book-pro142-group23">
+              <div class="mac-book-pro142-group20">
+                <div class="mac-book-pro142-graph22">
+                  <div class="mac-book-pro142-group14">
+                    <img
+                      src="public/external/image6437514534-x2ll-300h.png"
+                      alt="IMAGE6437514534"
+                      class="mac-book-pro142image643751"
+                    />
+                    <span class="mac-book-pro142-text46">
+                      <span class="mac-book-pro142-text47">
+                        1.14 million cars
+                      </span>
+                      <br />
+                      <span class="mac-book-pro142-text49"></span>
+                      <span>Off the Road</span>
+                    </span>
+                  </div>
+                </div>
+                <div class="mac-book-pro142-group19">
+                  <img
+                    src="public/external/image364714537-b87k-300h.png"
+                    alt="IMAGE364714537"
+                    class="mac-book-pro142image36471"
+                  />
+                  <span class="mac-book-pro142-text51">
+                    <span class="mac-book-pro142-text52">87,600 Trees</span>
+                    <br />
+                    <span class="mac-book-pro142-text54"></span>
+                    <span>Planted</span>
+                  </span>
+                </div>
+                <div class="mac-book-pro142-group18">
+                  <span class="mac-book-pro142-text56">
+                    <span class="mac-book-pro142-text57">
+                      10,512,000&nbsp;MWh
+                    </span>
+                    <span>Generated</span>
+                    <br />
+                    <span>Yearly</span>
+                  </span>
+                  <img
+                    src="public/external/image4306214541-oin8-300w.png"
+                    alt="IMAGE4306214541"
+                    class="mac-book-pro142image430621"
+                  />
+                </div>
+              </div>
+              <span class="mac-book-pro142-text61">
+                <span class="mac-book-pro142-text62">
+                  Our efforts have led to the offsetting of approximately
+                </span>
+                <span class="mac-book-pro142-text63">
+                  5,256,000 metric tons
+                </span>
+                <span class="mac-book-pro142-text64"></span>
+                <span class="mac-book-pro142-text65">of CO2</span>
+                <span class="mac-book-pro142-text66">
+                  , which is equivalent to planting
+                </span>
+                <span class="mac-book-pro142-text67">87.6 million trees</span>
+                <span>
+                  or taking 1.14 million cars off the road for a year.
+                </span>
+              </span>
+            </div>
+          </div>
+          <div class="mac-book-pro142-container2">
+            <div class="mac-book-pro142-group24">
+              <div class="mac-book-pro142-picture400x400"></div>
+            </div>
+            <img
+              src="public/external/link4545-2u94-1000w.png"
+              alt="Link4545"
+              class="mac-book-pro142-link15"
+            />
+            <div class="mac-book-pro142-link16">
+              <span class="mac-book-pro142-text69"><span>Apply Now</span></span>
+            </div>
+          </div>
+          <div class="mac-book-pro142-group21">
+            <span class="mac-book-pro142-text71">
+              <span>A single</span>
+              <br />
+              <span>
+                10KVA Hybrid Solar Bundle Impact On The Environment includes:
+              </span>
+              <br />
+              <span>
+                Offsets approximately 9.125 metric tons of CO2 per year.
+              </span>
+              <br />
+              <span>Equivalent to planting around 152 trees.</span>
+              <br />
+              <span>
+                Equivalent to removing about 2 cars from the road annually.
+              </span>
+            </span>
+          </div>
+          <div class="mac-book-pro142-background1">
+            <div class="mac-book-pro142-container3">
+              <img
+                src="public/external/svg4552-mdrk.svg"
+                alt="SVG4552"
+                class="mac-book-pro142svg1"
+              />
+            </div>
+            <img
+              src="public/external/svg4557-nuxb.svg"
+              alt="SVG4557"
+              class="mac-book-pro142svg2"
+            />
+            <div class="mac-book-pro142-heading4">
+              <span class="mac-book-pro142-text81">
+                <span>Subscribe to join our community and get the</span>
+                <br />
+                <span>latest updates on solar for businesses</span>
+              </span>
+            </div>
+            <div class="mac-book-pro142-form">
+              <div class="mac-book-pro142-input1">
+                <div class="mac-book-pro142-container4">
+                  <span
+                    class="mac-book-pro142-text85 shop.earthbond.coSemanticInput1"
+                  >
+                    <span>Company Name</span>
+                  </span>
+                </div>
+              </div>
+              <div class="mac-book-pro142-input2">
+                <div class="mac-book-pro142-container5">
+                  <span
+                    class="mac-book-pro142-text87 shop.earthbond.coSemanticInput1"
+                  >
+                    <span>Email</span>
+                  </span>
+                </div>
+              </div>
+              <button class="mac-book-pro142-button">
+                <span class="mac-book-pro142-text89">
+                  <span>Subscribe</span>
+                </span>
+              </button>
+            </div>
+          </div>
+          <div class="mac-book-pro142-background2">
+            <div class="mac-book-pro142-group25">
+              <div class="mac-book-pro142-container6">
+                <div
+                  class="mac-book-pro142-picturedark20green20circle20logo20titlepng"
+                ></div>
+              </div>
+              <div class="mac-book-pro142-container7">
+                <div class="mac-book-pro142-link17">
+                  <span class="mac-book-pro142-text91"><span>Home</span></span>
+                </div>
+                <div class="mac-book-pro142-link18">
+                  <span
+                    class="mac-book-pro142-text93 shop.earthbond.coSemanticLink1"
+                  >
+                    <span>About Us</span>
+                  </span>
+                </div>
+                <span class="mac-book-pro142-text95">
+                  <span>Need Help</span>
+                </span>
+                <div class="mac-book-pro142-link19">
+                  <span
+                    class="mac-book-pro142-text97 shop.earthbond.coSemanticLink1"
+                  >
+                    <span>Get a Recommendation</span>
+                  </span>
+                </div>
+                <div class="mac-book-pro142-link20">
+                  <span
+                    class="mac-book-pro142-text99 shop.earthbond.coSemanticLink1"
+                  >
+                    <span>FAQ</span>
+                  </span>
+                </div>
+              </div>
+              <span
+                class="mac-book-pro142-text101 shop.earthbond.coSemanticHeading5"
+              >
+                <span>Shop</span>
+              </span>
+              <span
+                class="mac-book-pro142-text103 shop.earthbond.coInterRegular16"
+              >
+                <span>© 2024 Earthbond Limited, All rights reserved.</span>
+              </span>
+              <div class="mac-book-pro142-zwstockimage151png"></div>
+              <div class="mac-book-pro142-zwstockimage150png"></div>
+              <div class="mac-book-pro142-zwstockimage152png"></div>
+              <div class="mac-book-pro142-zwstockimage153png"></div>
+              <div class="mac-book-pro142-link21">
+                <span class="mac-book-pro142-text105">
+                  <span>Get Carbon Credits</span>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
